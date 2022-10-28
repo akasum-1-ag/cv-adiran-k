@@ -1,0 +1,76 @@
+body {
+    background-color:darkslategray;
+    margin: 0;
+    padding: 0;
+}
+
+.adrian-h1 {
+    color:dodgerblue;
+    font-size: 100px;
+    font-family:system-ui;
+    font-weight:900;
+    display: flex;
+    justify-content:center;
+}
+
+
+.container {
+    display: flex;
+    justify-content:space-evenly; /* X-led */
+    height: 200px;
+    align-items:stretch; /* Y-led */
+    font-size: 45px;
+    font-family:system-ui;
+}
+
+a:link, a:visited { /* Standard färgen på länkar */
+    text-decoration: none;
+    color:azure;
+}
+
+a:hover,a:active { /* När musen är över en länk byter länken färg */
+    color:dodgerblue;
+    text-decoration: none;
+}
+
+.categories { /* Alla kategorier */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    height: 200px;
+    font-size: 30px;
+    font-family:system-ui;
+}
+
+.category { /* Alla huvudtitlar för kategorier */
+    display: flex;
+    justify-content:center;
+    font-size: 40px;
+    color:dodgerblue;
+    font-family: system-ui;
+    color: dodgerblue;
+    margin-top: -20px;
+}
+
+.center-picture { /* För alla bilder och över rubriker som jag vill ha centrerat */
+    display: grid;
+    place-items: center;
+    align-content: center;
+    font-size: 25px;
+    color: azure;
+    text-decoration: underline;
+}
+
+.topnav { /* Nav bar för alla mina kategorier */
+    background-color:black;
+    overflow: hidden;
+    height: 100px;
+}
+
+.text { /* För brödtexten */
+    color: azure;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
